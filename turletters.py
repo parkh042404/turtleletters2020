@@ -38,7 +38,7 @@ def turtleLetter(letter,tur):
         #tur.right(180)
     elif letter == "B":
 	    pass
-    elif letter == "C":
+    elif letter == "C": #hannah
 	    pass
     elif letter == "D":
 	    pass
