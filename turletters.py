@@ -1,5 +1,6 @@
 import turtle
-
+for i in range (10):
+	print("Hi")
 def turtleLetter(letter,tur):
     if letter=="box":
         tur.setheading(0)
