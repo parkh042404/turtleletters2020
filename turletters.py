@@ -11,8 +11,17 @@ def turtleLetter(letter,tur):
         tur.forward(40)
         tur.right(90)
         tur.forward(60)
-
-    elif letter == "A":
+def box():
+    t.width(1)
+    t.forward(60)
+    t.left(90)
+    t.forward(40)
+    t.left(90)
+    t.forward(60)
+    t.left(90)
+    t.forward(40)
+    t.left(180)
+   elif letter == "A":
         tur.setheading(0)
         tur.pu()
         tur.fd(5)
