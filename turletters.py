@@ -317,7 +317,7 @@ if __name__ == "__main__":
     tur = turtle.Turtle()
     tur.speed(1)
     #turtleLetter("box",tur)
-    turtleLetter("A",tur)
+    turtleLetter("B",tur)
 
 
 window.exitonclick()
