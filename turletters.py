@@ -222,7 +222,21 @@ def turtleLetter(letter,tur):
 	tur.fd(50)
 	tur.right(90)
     elif letter == "M": #END
-	    pass
+	tur.pu()
+	tur.setheading(0)
+	tur.fd(5)
+	tur.right(90)
+	tur.fd(5)
+	tur.pd()
+	tur.fd(50)
+	tur.backward(50)
+	tur.left(50)
+	tur.fd(20)
+	tur.right(280)
+	tur.fd(20)
+	tur.right(130)
+	tur.fd(50)
+
     elif letter == "N":
 	t.right(90)
     	t.width(1)
@@ -302,6 +316,7 @@ def turtleLetter(letter,tur):
 if __name__ == "__main__":
     window = turtle.Screen()
     tur = turtle.Turtle()
+    t = turtle.Turtle()
     tur.speed(1)
     #turtleLetter("box",tur)
     turtleLetter("A",tur)
