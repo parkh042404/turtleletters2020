@@ -12,31 +12,44 @@ def turtleLetter(letter,tur):
         tur.right(90)
         tur.forward(60)
 
-   elif letter == "A":
+    elif letter == "A":
+	pass
         
     elif letter == "B":
+	pass
 
     elif letter == "C": 
+	pass
 
     elif letter == "D":
+	pass
 
     elif letter == "E":
+	pass
 	
     elif letter == "F":
+	pass
 	
     elif letter == "G":
+	pass
 
     elif letter == "H":
+	pass
 
     elif letter == "I":
+	pass
 
     elif letter == "J":
+	pass
 
     elif letter == "K":
+	pass
 
-    elif letter == "L":
+    elif letter == "L"
+	pass
 
     elif letter == "M": 
+	pass
 
 
     elif letter == "N":
