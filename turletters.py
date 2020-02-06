@@ -233,9 +233,51 @@ def box():
     elif letter == "M": #END
 	    pass
     elif letter == "N":
-	    pass
+	t.right(90)
+	box()
+    	t.width(1)
+    	t.right(90)
+    	t.penup()
+    	t.forward(60)
+   	t.left(90)
+    	t.forward(5)
+    	t.left(90)
+    	t.forward(5)
+    	t.pendown()
+    	t.width(5)
+    	t.width(5)
+    	t.forward(45)
+    	t.right(150)
+    	t.forward(50)
+    	t.left(150)
+    	t.forward(45)
+    	t.penup()
+    	t.forward(5)
+    	t.right(90)
+    	t.forward(5)
     elif letter == "O":
-	    pass
+	t.right(90)
+    	box()
+   	t.width(1)
+    	t.right(90)
+    	t.penup()
+    	t.forward(60)
+    	t.left(90)
+    	t.forward(5)
+    	t.left(90)
+    	t.forward(5)
+    	t.pendown()
+    	##above lines put cursor in starting position for bottom corner of letter
+    	t.width(5)
+    	for i in range(2):
+        	t.forward(50)
+        	t.right(90)
+        	t.forward(30)
+        	t.right(90)
+    	t.penup()
+    	t.forward(55)
+    	t.right(90)
+    	t.forward(35)
     elif letter == "P":
 	    pass		
     elif letter == "Q":
